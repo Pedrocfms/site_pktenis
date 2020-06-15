@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1.5fr;
+    grid-template-rows: 1fr 4fr 3fr 2fr;
+    height: 100vh;
+}
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: #EDF2F4;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+main h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2B2D42;
+    padding-top: 5%;
+    padding-right: 60%;
+}
+
+main h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #2B2D42;
+    padding-right: 20%;
+    text-align: justify;
+    padding-top: 5%;
+}
+
+section.um {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #EF233C;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #EDF2F4;
+    text-align: center;
+    padding-top: 20%;
+}
+
+section.dois {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: #D90429;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #EDF2F4;
+    text-align: center;
+    padding-top: 17%;
+}
+
+section.rodape {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: #2B2D42;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: #EDF2F4;
+    text-align: center;
+    padding-top: 6%;
+}
+
+header {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #8D99AE;
+}
+
+header ul li {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: #8D99AE;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #2B2D42;
+    display: inline-block;
+    padding: 6%;
+}
+
+header ul li:hover {
+    color: #EDF2F4;
+    background-color: #EF233C;
+
+}
+
+
+
+
+.imagem {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background: url(img/imagem1.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
